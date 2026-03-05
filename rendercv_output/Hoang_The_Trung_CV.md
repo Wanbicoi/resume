@@ -12,18 +12,18 @@
 # Skills
 **Languages:** C#, JavaScript, TypeScript, SQL, NoSQL
 
-**Frameworks:** ASP.NET WebAPI, Next.js, NestJS, Hangfire
+**Frameworks:** ASP.NET WebAPI, ASP.NET Web Forms, React.js, Next.js, NestJS, Node.js
 
 **Databases:** Microsoft SQL Server, PostgreSQL, Redis
 
-**Cloud & DevOps:** AWS (EC2, RDS, S3), Docker, CI/CD
+**Cloud & DevOps:** AWS, Docker, Gitlab CI, Jenkins, Octopus Deploy
 
 **Specialization:** Database indexing, lock optimization, background job orchestration
 
 **English:** TOEIC 825 (Professional working proficiency; daily collaboration with US engineering teams)
 
 # Experience
-## **Software Engineer**, SynergieGlobal
+## **Software Engineer**, SynergieGlobal -- Ho Chi Minh City, Vietnam
 
 Apr 2024 – present
 
@@ -51,7 +51,7 @@ Apr 2024 – present
 
 
 
-## **Web Development Intern**, Aura Beauty Group
+## **Web Development Intern**, Aura Beauty Group -- Ho Chi Minh City, Vietnam
 
 May 2023 – Nov 2023
 

@@ -103,11 +103,11 @@
 
 #strong[Languages:] C\#, JavaScript, TypeScript, SQL, NoSQL
 
-#strong[Frameworks:] ASP.NET WebAPI, Next.js, NestJS, Hangfire
+#strong[Frameworks:] ASP.NET WebAPI, ASP.NET Web Forms, React.js, Next.js, NestJS, Node.js
 
 #strong[Databases:] Microsoft SQL Server, PostgreSQL, Redis
 
-#strong[Cloud & DevOps:] AWS (EC2, RDS, S3), Docker, CI\/CD
+#strong[Cloud & DevOps:] AWS, Docker, Gitlab CI, Jenkins, Octopus Deploy
 
 #strong[Specialization:] Database indexing, lock optimization, background job orchestration
 
@@ -117,7 +117,7 @@
 
 #regular-entry(
   [
-    #strong[Software Engineer], SynergieGlobal
+    #strong[Software Engineer], SynergieGlobal -- Ho Chi Minh City, Vietnam
 
   ],
   [
@@ -150,7 +150,7 @@
 
 #regular-entry(
   [
-    #strong[Web Development Intern], Aura Beauty Group
+    #strong[Web Development Intern], Aura Beauty Group -- Ho Chi Minh City, Vietnam
 
   ],
   [

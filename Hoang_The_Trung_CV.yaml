@@ -17,11 +17,11 @@ cv:
       - label: Languages
         details: C#, JavaScript, TypeScript, SQL, NoSQL
       - label: Frameworks
-        details: ASP.NET WebAPI, Next.js, NestJS, Hangfire
+        details: ASP.NET WebAPI, ASP.NET Web Forms, React.js, Next.js, NestJS, Node.js
       - label: Databases
         details: Microsoft SQL Server, PostgreSQL, Redis
       - label: Cloud & DevOps
-        details: AWS (EC2, RDS, S3), Docker, CI/CD
+        details: AWS, Docker, Gitlab CI, Jenkins, Octopus Deploy
       - label: Specialization
         details: Database indexing, lock optimization, background job orchestration
       - label: English
@@ -31,7 +31,7 @@ cv:
         position: Software Engineer
         start_date: 2024-04
         end_date: present
-        location:
+        location: Ho Chi Minh City, Vietnam
         highlights:
           - |
             **Project: SaaS System Maintenance & Reliability**
@@ -49,7 +49,7 @@ cv:
         position: Web Development Intern
         start_date: 2023-05
         end_date: 2023-11
-        location:
+        location: Ho Chi Minh City, Vietnam
         highlights:
           - Build **full-stack ERP features** with NestJS and Next.js to support internal clinic operations.
           - Develop an **AI-powered knowledge assistant** using OpenAI APIs and vector search to automate **30%** of routine customer support queries.
