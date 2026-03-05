@@ -1,7 +1,7 @@
 # Hoang The Trung's CV
 
 - Phone: +84 782 592 035
-- Email: [wanbicoi123@gmail.com](mailto:wanbicoi123@gmail.com)
+- Email: [hoangthetrung.work@gmail.com](mailto:hoangthetrung.work@gmail.com)
 - LinkedIn: [hoang-trung-b10b311a4](https://linkedin.com/in/hoang-trung-b10b311a4)
 - GitHub: [Wanbicoi](https://github.com/Wanbicoi)
 

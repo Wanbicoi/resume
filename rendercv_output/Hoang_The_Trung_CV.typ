@@ -88,7 +88,7 @@
   #headline([Software Engineer])
 
 #connections(
-  [#link("mailto:wanbicoi123@gmail.com", icon: false, if-underline: false, if-color: false)[wanbicoi123\@gmail.com]],
+  [#link("mailto:hoangthetrung.work@gmail.com", icon: false, if-underline: false, if-color: false)[hoangthetrung.work\@gmail.com]],
   [#link("tel:+84-782-592-035", icon: false, if-underline: false, if-color: false)[0782 592 035]],
   [#link("https://linkedin.com/in/hoang-trung-b10b311a4", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/hoang-trung-b10b311a4]],
   [#link("https://github.com/Wanbicoi", icon: false, if-underline: false, if-color: false)[github.com\/Wanbicoi]],
