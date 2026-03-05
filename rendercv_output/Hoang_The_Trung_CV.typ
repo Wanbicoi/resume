@@ -13,7 +13,7 @@
   page-left-margin: 0.7in,
   page-right-margin: 0.7in,
   page-show-footer: false,
-  page-show-top-note: true,
+  page-show-top-note: false,
   colors-body: rgb(0, 0, 0),
   colors-name: rgb(0, 0, 0),
   colors-headline: rgb(0, 0, 0),
@@ -85,10 +85,9 @@
 
 = Hoang The Trung
 
-  #headline([Site Reliability Engineer])
+  #headline([Software Engineer])
 
 #connections(
-  [Ho Chi Minh City, VN],
   [#link("mailto:wanbicoi123@gmail.com", icon: false, if-underline: false, if-color: false)[wanbicoi123\@gmail.com]],
   [#link("tel:+84-782-592-035", icon: false, if-underline: false, if-color: false)[0782 592 035]],
   [#link("https://linkedin.com/in/hoang-trung-b10b311a4", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/hoang-trung-b10b311a4]],
@@ -98,19 +97,19 @@
 
 == Summary
 
-Site Reliability Engineer with 2.5+ years of experience building and operating high-availability SaaS systems at scale. Specialized in .NET, asynchronous processing, and database performance optimization. Increased system throughput by 3x, engineered background pipelines processing 2M+ daily signals, and resolved critical concurrency bottlenecks in production environments. Strong communicator experienced in daily cross-cultural collaboration with US-based engineering teams.
+#strong[Software Engineer] with nearly #strong[3 years] of experience building and operating high-availability SaaS systems at scale. Focus on .NET backends, asynchronous processing, and database performance optimization. Drive #strong[3x throughput improvements], build pipelines that process imports of #strong[2M+ rows per run], and eliminate concurrency bottlenecks in production. Communicate clearly and collaborate daily with #strong[US-based] engineering teams.
 
 == Skills
 
-#strong[Languages:] C\#, Javascript, TypeScript, SQL, NoSQL
+#strong[Languages:] C\#, JavaScript, TypeScript, SQL, NoSQL
 
 #strong[Frameworks:] ASP.NET WebAPI, Next.js, NestJS, Hangfire
 
-#strong[Databases:] MS SQL Server, PostgreSQL, Redis
+#strong[Databases:] Microsoft SQL Server, PostgreSQL, Redis
 
 #strong[Cloud & DevOps:] AWS (EC2, RDS, S3), Docker, CI\/CD
 
-#strong[Specialization:] Database Indexing, Lock Optimization, Background Job Orchestration
+#strong[Specialization:] Database indexing, lock optimization, background job orchestration
 
 #strong[English:] TOEIC 825 (Professional working proficiency; daily collaboration with US engineering teams)
 
@@ -118,7 +117,7 @@ Site Reliability Engineer with 2.5+ years of experience building and operating h
 
 #regular-entry(
   [
-    #strong[Site Reliability Engineer], SynergieGlobal -- Ho Chi Minh City, VN
+    #strong[Software Engineer], SynergieGlobal
 
   ],
   [
@@ -126,30 +125,32 @@ Site Reliability Engineer with 2.5+ years of experience building and operating h
 
   ],
   main-column-second-row: [
-    - Refactored legacy .NET Full-Text Search and redesigned SQL indexing strategy, reducing query execution time by 3x and improving API responsiveness under peak load.
+    - #strong[Project: SaaS System Maintenance & Reliability]
 
-    - Maintained and enhanced a custom two-way mobile synchronization engine (Cordova) supporting offline-first architecture, resolving data consistency bugs and improving conflict handling stability.
+      #sym.ast.basic Refactor legacy #strong[.NET full-text search] and redesign SQL indexes to reduce query execution time by #strong[3x] and improve API responsiveness under peak load.
 
-    - Contributed to large-scale legacy schema migrations in collaboration with the DBA team, improving data integrity and optimizing database storage usage.
+      #sym.ast.basic Maintain and enhance a custom #strong[two-way mobile synchronization engine (Cordova)] for an #strong[offline-first] architecture; fix data consistency issues and strengthen conflict handling.
 
-    - Collaborated daily with US-based engineering teams through technical discussions, documentation, and sprint ceremonies to align feature implementation and production support activities.
+      #sym.ast.basic Work with the DBA team to migrate inactive data and optimize #strong[full-text search] performance.
 
-    - Managed release cycles across backend services, web applications, and mobile builds.
+      #sym.ast.basic Collaborate daily with #strong[US-based engineering teams] through technical discussions, documentation, and sprint ceremonies to align feature implementation and production support activities.
 
-    - Architected an asynchronous ingestion pipeline expanding system capacity from thousands to 1M+ records per query without performance degradation.
+      #sym.ast.basic Manage #strong[release cycles] across backend services, web applications, and mobile builds.
 
-    - Engineered background processing layer handling 2M+ daily signals using Hangfire with custom retry logic, atomic task execution, and failure recovery mechanisms.
+    - #strong[Project: High-Volume Device Signal Visualization Engine]
 
-    - Resolved critical database lock contention issues by implementing optimized query patterns and appropriate isolation levels, maintaining high availability during traffic spikes.
+      #sym.ast.basic Architect an #strong[asynchronous ingestion pipeline] to scale capacity from thousands to #strong[1M+ records per query] without performance degradation.
 
-    - Developed task-based status orchestration mechanism enabling real-time monitoring of long-running background operations.
+      #sym.ast.basic Resolve critical #strong[database lock contention] by tuning query patterns and transaction isolation to maintain #strong[high availability] during traffic spikes.
+
+      #sym.ast.basic Develop task-based status orchestration to enable monitoring for long-running background operations.
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Web Development Intern], Aura Beauty Group -- Ho Chi Minh City, VN
+    #strong[Web Development Intern], Aura Beauty Group
 
   ],
   [
@@ -157,11 +158,11 @@ Site Reliability Engineer with 2.5+ years of experience building and operating h
 
   ],
   main-column-second-row: [
-    - Built full-stack ERP features using NestJS and Next.js for internal clinic operations.
+    - Build #strong[full-stack ERP features] with NestJS and Next.js to support internal clinic operations.
 
-    - Developed AI-powered knowledge assistant leveraging OpenAI APIs and vector search, automating 30\% of routine customer support queries.
+    - Develop an #strong[AI-powered knowledge assistant] using OpenAI APIs and vector search to automate #strong[30\%] of routine customer support queries.
 
-    - Integrated QR-based voucher system into Zalo MiniApp, supporting digital customer acquisition campaigns.
+    - Integrate a #strong[QR-based voucher system] into Zalo MiniApp to support digital customer acquisition campaigns.
 
   ],
 )
@@ -170,11 +171,11 @@ Site Reliability Engineer with 2.5+ years of experience building and operating h
 
 #education-entry(
   [
-    #strong[VNUHCM - University of Science], Bachelor in Information Technology (Honors Program) -- Ho Chi Minh City, VN
+    #strong[VNUHCM - University of Science], Bachelor in Information Technology (Honors Program)
 
   ],
   [
-    Dec 2025
+    Sept 2021 – Dec 2025
 
   ],
   main-column-second-row: [
