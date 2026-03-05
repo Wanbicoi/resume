@@ -1,0 +1,240 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Hoang The Trung
+  headline: Site Reliability Engineer
+  location: Ho Chi Minh City, VN
+  email: wanbicoi123@gmail.com
+  phone: "+84-782-592-035"
+  social_networks:
+    - network: LinkedIn
+      username: hoang-trung-b10b311a4
+    - network: GitHub
+      username: Wanbicoi
+  sections:
+    summary:
+      - Site Reliability Engineer with 2.5+ years of experience building and operating high-availability SaaS systems at scale. Specialized in .NET, asynchronous processing, and database performance optimization. Increased system throughput by 3x, engineered background pipelines processing 2M+ daily signals, and resolved critical concurrency bottlenecks in production environments. Strong communicator experienced in daily cross-cultural collaboration with US-based engineering teams.
+    skills:
+      - label: Languages
+        details: C#, Javascript, TypeScript, SQL, NoSQL
+      - label: Frameworks
+        details: ASP.NET WebAPI, Next.js, NestJS, Hangfire
+      - label: Databases
+        details: MS SQL Server, PostgreSQL, Redis
+      - label: Cloud & DevOps
+        details: AWS (EC2, RDS, S3), Docker, CI/CD
+      - label: Specialization
+        details: Database Indexing, Lock Optimization, Background Job Orchestration
+      - label: English
+        details: TOEIC 825 (Professional working proficiency; daily collaboration with US engineering teams)
+    experience:
+      - company: SynergieGlobal
+        position: Site Reliability Engineer
+        start_date: 2024-04
+        end_date: present
+        location: Ho Chi Minh City, VN
+        highlights:
+          - Refactored legacy .NET Full-Text Search and redesigned SQL indexing strategy, reducing query execution time by 3x and improving API responsiveness under peak load.
+          - Maintained and enhanced a custom two-way mobile synchronization engine (Cordova) supporting offline-first architecture, resolving data consistency bugs and improving conflict handling stability.
+          - Contributed to large-scale legacy schema migrations in collaboration with the DBA team, improving data integrity and optimizing database storage usage.
+          - Collaborated daily with US-based engineering teams through technical discussions, documentation, and sprint ceremonies to align feature implementation and production support activities.
+          - Managed release cycles across backend services, web applications, and mobile builds.
+          - Architected an asynchronous ingestion pipeline expanding system capacity from thousands to 1M+ records per query without performance degradation.
+          - Engineered background processing layer handling 2M+ daily signals using Hangfire with custom retry logic, atomic task execution, and failure recovery mechanisms.
+          - Resolved critical database lock contention issues by implementing optimized query patterns and appropriate isolation levels, maintaining high availability during traffic spikes.
+          - Developed task-based status orchestration mechanism enabling real-time monitoring of long-running background operations.
+      - company: Aura Beauty Group
+        position: Web Development Intern
+        start_date: 2023-05
+        end_date: 2023-11
+        location: Ho Chi Minh City, VN
+        highlights:
+          - Built full-stack ERP features using NestJS and Next.js for internal clinic operations.
+          - Developed AI-powered knowledge assistant leveraging OpenAI APIs and vector search, automating 30% of routine customer support queries.
+          - Integrated QR-based voucher system into Zalo MiniApp, supporting digital customer acquisition campaigns.
+    education:
+      - institution: VNUHCM - University of Science
+        area: Information Technology (Honors Program)
+        degree: Bachelor
+        end_date: 2025-12
+        location: Ho Chi Minh City, VN
+design:
+  theme: engineeringresumes
+  # page:
+  #   size: us-letter
+  #   top_margin: 0.7in
+  #   bottom_margin: 0.7in
+  #   left_margin: 0.7in
+  #   right_margin: 0.7in
+  #   show_footer: true
+  #   show_top_note: true
+  # colors:
+  #   body: rgb(0, 0, 0)
+  #   name: rgb(0, 79, 144)
+  #   headline: rgb(0, 79, 144)
+  #   connections: rgb(0, 79, 144)
+  #   section_titles: rgb(0, 79, 144)
+  #   links: rgb(0, 79, 144)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: Source Sans 3
+  #     name: Source Sans 3
+  #     headline: Source Sans 3
+  #     connections: Source Sans 3
+  #     section_titles: Source Sans 3
+  #   font_size:
+  #     body: 10pt
+  #     name: 30pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.4em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: true
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: false
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: true
+  #     display_urls_instead_of_usernames: false
+  #     separator: ''
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_partial_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.2em
+  #   space_between_text_based_entries: 0.3em
+  #   show_time_spans_in:
+  #     - experience
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: true
+  #   summary:
+  #     space_above: 0cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: •
+  #     nested_bullet: •
+  #     space_left: 0.15cm
+  #     space_above: 0cm
+  #     space_between_items: 0cm
+  #     space_between_bullet_and_text: 0.5em
+  # templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**, AREA
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column: '**DEGREE**'
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **COMPANY**, POSITION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: '2026-03-05'
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
