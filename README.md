@@ -15,26 +15,30 @@ RenderCV takes a single YAML file containing all the CV data and generates a pro
 
 You need to have Python installed on your system.
 
-### Installation
+### Installation (Local to This Folder)
 
-Install RenderCV via pip:
+Create a local virtual environment in this directory and install dependencies there:
 
 ```bash
-pip install rendercv
+python -m venv .venv
+.\.venv\Scripts\python -m pip install --upgrade pip
+.\.venv\Scripts\python -m pip install -r requirements.txt
 ```
+
+This creates and uses `.venv/` inside this directory, so `rendercv` is not installed globally.
 
 ### Generating the CV
 
-To build and update the CV files, run the following command in the root of this directory:
+Use the local Python environment:
 
 ```bash
-rendercv render .\Hoang_The_Trung_CV.yaml
+.\.venv\Scripts\python -m rendercv render .\Hoang_The_Trung_CV.yaml
 ```
 
-If you want to try different built-in themes (like `engineeringresumes`, `classic`, or `sb2nov`), you can pass the theme flag:
+For a built-in theme:
 
 ```bash
-rendercv render .\Hoang_The_Trung_CV.yaml --design.theme "engineeringresumes"
+.\.venv\Scripts\python -m rendercv render .\Hoang_The_Trung_CV.yaml --design.theme "engineeringresumes"
 ```
 
-The generated `.pdf`, `.md`, and `.html` files will be placed inside the `rendercv_output/` folder.
+The generated `.pdf`, `.md`, and `.html` files are placed inside `rendercv_output/`.
