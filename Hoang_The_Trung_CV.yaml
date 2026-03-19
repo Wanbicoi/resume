@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
   name: Hoang The Trung
-  headline: Software Engineer | Backend & Node.js
+  headline: Software Engineer
   location:
   email: hoangthetrung.work@gmail.com
   phone: "+84-782-592-035"
