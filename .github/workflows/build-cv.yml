@@ -1,0 +1,90 @@
+name: Build CV
+
+on:
+  push:
+    branches:
+      - '**'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Render CV
+        run: |
+          python -m rendercv render ./Hoang_The_Trung_CV.yaml
+
+      - name: Verify expected outputs
+        run: |
+          shopt -s nullglob
+          pdfs=(rendercv_output/*.pdf)
+          if [ ${#pdfs[@]} -eq 0 ]; then
+            echo "No PDF found in rendercv_output"
+            ls -la rendercv_output || true
+            exit 1
+          fi
+
+      - name: Upload CV artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-output
+          path: |
+            rendercv_output/*.pdf
+            rendercv_output/*.html
+            rendercv_output/*.md
+            rendercv_output/*.typ
+            rendercv_output/*.png
+          if-no-files-found: error
+
+  release:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download CV artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: cv-output
+          path: rendercv_output
+
+      - name: Prepare release metadata
+        id: meta
+        run: |
+          echo "tag=cv-${GITHUB_RUN_NUMBER}-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.meta.outputs.tag }}
+          name: CV ${{ steps.meta.outputs.tag }}
+          target_commitish: ${{ github.sha }}
+          generate_release_notes: true
+          files: |
+            rendercv_output/*
