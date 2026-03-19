@@ -40,7 +40,13 @@ jobs:
 
       - name: Verify expected outputs
         run: |
-          test -f rendercv_output/Hoang_The_Trung_CV.pdf
+          shopt -s nullglob
+          pdfs=(rendercv_output/*.pdf)
+          if [ ${#pdfs[@]} -eq 0 ]; then
+            echo "No PDF found in rendercv_output"
+            ls -la rendercv_output || true
+            exit 1
+          fi
 
       - name: Upload CV artifacts
         uses: actions/upload-artifact@v4
