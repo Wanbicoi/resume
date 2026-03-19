@@ -42,3 +42,9 @@ For a built-in theme:
 ```
 
 The generated `.pdf`, `.md`, and `.html` files are placed inside `rendercv_output/`.
+
+## Copilot Rules
+
+Project Copilot rules are defined in [.github/copilot-instructions.md](.github/copilot-instructions.md).
+
+Use those rules when updating CV content so edits remain factual, ATS-friendly, and compatible with the RenderCV workflow.

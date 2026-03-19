@@ -85,7 +85,7 @@
 
 = Hoang The Trung
 
-  #headline([Software Engineer])
+  #headline([Software Engineer | Backend & Node.js])
 
 #connections(
   [#link("mailto:hoangthetrung.work@gmail.com", icon: false, if-underline: false, if-color: false)[hoangthetrung.work\@gmail.com]],
@@ -97,19 +97,19 @@
 
 == Summary
 
-#strong[Software Engineer] with nearly #strong[3 years] of experience building and operating high-availability SaaS systems at scale. Focus on .NET backends, asynchronous processing, and database performance optimization. Drive #strong[3x throughput improvements], build pipelines that process imports of #strong[2M+ rows per run], and eliminate concurrency bottlenecks in production. Communicate clearly and collaborate daily with #strong[US-based] engineering teams.
+#strong[Software Engineer] with nearly #strong[3 years] of experience building scalable data-intensive systems. Hands-on with #strong[Node.js\/NestJS] and .NET services, asynchronous processing, and relational database optimization. Delivered #strong[3x query performance gains], built ingestion pipelines handling #strong[2M+ rows per run], and resolved production concurrency bottlenecks. Experienced with AI API integration and cross-functional delivery with #strong[US-based] engineering teams.
 
 == Skills
 
 #strong[Languages:] C\#, JavaScript, TypeScript, SQL, NoSQL
 
-#strong[Frameworks:] ASP.NET WebAPI, ASP.NET Web Forms, React.js, Next.js, NestJS, Node.js
+#strong[Frameworks:] Node.js, NestJS, ASP.NET WebAPI, Express.js, React.js, Next.js
 
-#strong[Databases:] Microsoft SQL Server, PostgreSQL, Redis
+#strong[Databases:] PostgreSQL, Microsoft SQL Server, Redis
 
 #strong[Cloud & DevOps:] AWS, Docker, Gitlab CI, Jenkins, Octopus Deploy
 
-#strong[Specialization:] Database indexing, lock optimization, background job orchestration
+#strong[Specialization:] Database indexing, lock optimization, performance tuning for data-heavy workloads
 
 #strong[English:] TOEIC 825 (Professional working proficiency; daily collaboration with US engineering teams)
 
@@ -127,9 +127,9 @@
   main-column-second-row: [
     - #strong[Project: SaaS System Maintenance & Reliability]
 
-      #sym.ast.basic Refactor legacy #strong[.NET full-text search] and redesign SQL indexes to reduce query execution time by #strong[3x] and improve API responsiveness under peak load.
+      #sym.ast.basic Refactor backend search and redesign SQL indexes to reduce query execution time by #strong[3x] and improve API responsiveness under peak load.
 
-      #sym.ast.basic Maintain and enhance a custom #strong[two-way mobile synchronization engine (Cordova)] for an #strong[offline-first] architecture; fix data consistency issues and strengthen conflict handling.
+      #sym.ast.basic Maintain and enhance a custom #strong[two-way mobile synchronization engine (Cordova)] for an #strong[offline-first] architecture; resolve data consistency issues and strengthen conflict handling rules.
 
       #sym.ast.basic Work with the DBA team to migrate inactive data and optimize #strong[full-text search] performance.
 
@@ -139,11 +139,11 @@
 
     - #strong[Project: High-Volume Device Signal Visualization Engine]
 
-      #sym.ast.basic Architect an #strong[asynchronous ingestion pipeline] to scale capacity from thousands to #strong[1M+ records per query] without performance degradation.
+      #sym.ast.basic Architect an #strong[asynchronous ingestion pipeline] with validation checkpoints to scale capacity from thousands to #strong[1M+ records per query] without performance degradation.
 
       #sym.ast.basic Resolve critical #strong[database lock contention] by tuning query patterns and transaction isolation to maintain #strong[high availability] during traffic spikes.
 
-      #sym.ast.basic Develop task-based status orchestration to enable monitoring for long-running background operations.
+      #sym.ast.basic Develop task-based status orchestration and monitoring for long-running background operations.
 
   ],
 )
@@ -158,7 +158,7 @@
 
   ],
   main-column-second-row: [
-    - Build #strong[full-stack ERP features] with NestJS and Next.js to support internal clinic operations.
+    - Build #strong[full-stack ERP features] with NestJS\/Node.js and Next.js, including backend modules for internal clinic operations.
 
     - Develop an #strong[AI-powered knowledge assistant] using OpenAI APIs and vector search to automate #strong[30\%] of routine customer support queries.
 
