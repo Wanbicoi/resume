@@ -1,0 +1,1 @@
+- Run `make build` after every changes
