@@ -8,25 +8,32 @@ cv:
   social_networks:
     - network: LinkedIn
       username: hoang-trung-b10b311a4
-    - network: GitHub
-      username: Wanbicoi
+    # - network: GitHub
+    #   username: Wanbicoi
   sections:
     summary:
-      - "**Software Engineer** with nearly **3 years** of experience building and operating high-availability SaaS systems at scale. Focus on .NET backends, asynchronous processing, and database performance optimization. Drive **3x throughput improvements**, build pipelines that process imports of **2M+ rows per run**, and eliminate concurrency bottlenecks in production. Communicate clearly and collaborate daily with **US-based** engineering teams."
+      - "**Software Engineer** with nearly **3 years** of experience building, operating, and troubleshooting high-availability SaaS and microservice systems at scale. Expertise in .NET and Node.js/TypeScript backends, asynchronous processing, and database optimization. Drive **3x throughput improvements**, build pipelines processing imports of **2M+ rows**, and debug complex production issues in enterprise environments. Communicate clearly and collaborate daily with cross-functional and global teams."
     skills:
       - label: Languages
         details: C#, JavaScript, TypeScript, SQL, NoSQL
       - label: Frameworks
-        details: ASP.NET WebAPI, ASP.NET Web Forms, React.js, Next.js, NestJS, Node.js
+        details: ASP.NET WebAPI, ASP.NET Web Forms, Capire (SAP CAP), React.js, Next.js, NestJS, Node.js
       - label: Databases
         details: Microsoft SQL Server, PostgreSQL, Redis
       - label: Cloud & DevOps
-        details: AWS, Docker, Gitlab CI, Jenkins, Octopus Deploy
+        details: AWS, SAP BTP, SAP Event Mesh, Docker, Gitlab CI, Jenkins, Octopus Deploy
       - label: Specialization
-        details: Database indexing, lock optimization, background job orchestration
+        details: Database indexing, lock optimization, background job orchestration, microservices troubleshooting
       - label: English
         details: TOEIC 825 (Professional working proficiency; daily collaboration with US engineering teams)
     experience:
+      - company: Laidon
+        position: Backend Developer
+        start_date: 2026-05
+        location: Ho Chi Minh City, Vietnam
+        highlights:
+          - Enhance backend features for SimpleMDG (an enterprise Master Data Governance solution) using **Capire (SAP CAP)**, **Node.js**, and **TypeScript** in a microservices architecture.
+          - Diagnose production incidents, tracing asynchronous events across **SAP Event Mesh** to ensure system availability.
       - company: SynergieGlobal
         position: Software Engineer
         start_date: 2024-04
@@ -35,10 +42,8 @@ cv:
         highlights:
           - |
             **Project: SaaS System Maintenance & Reliability**
-              * Refactor legacy **.NET full-text search** and redesign SQL indexes to reduce query execution time by **3x** and improve API responsiveness under peak load.
-              * Maintain and enhance a custom **two-way mobile synchronization engine (Cordova)** for an **offline-first** architecture; fix data consistency issues and strengthen conflict handling.
-              * Work with the DBA team to migrate inactive data and optimize **full-text search** performance.
-              * Collaborate daily with **US-based engineering teams** through technical discussions, documentation, and sprint ceremonies to align feature implementation and production support activities.
+              * Refactor and optimize legacy **full-text search** and redesign SQL indexes to reduce query execution time by **3x** and improve API responsiveness under peak load.
+              * Maintain and enhance a custom **two-way mobile synchronization engine** for an **offline-first** architecture.
               * Manage **release cycles** across backend services, web applications, and mobile builds.
           - |
             **Project: High-Volume Device Signal Visualization Engine**
@@ -53,7 +58,6 @@ cv:
         highlights:
           - Build **full-stack ERP features** with NestJS and Next.js to support internal clinic operations.
           - Develop an **AI-powered knowledge assistant** using OpenAI APIs and vector search to automate **30%** of routine customer support queries.
-          - Integrate a **QR-based voucher system** into Zalo MiniApp to support digital customer acquisition campaigns.
     education:
       - institution: VNUHCM - University of Science
         area: Information Technology (Honors Program)
