@@ -1,0 +1,114 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Hoang The Trung
+  headline: Software Engineer
+  location:
+  email: hoangthetrung.work@gmail.com
+  phone: "+84-782-592-035"
+  social_networks:
+    - network: LinkedIn
+      username: hoang-trung-b10b311a4
+    # - network: GitHub
+    #   username: Wanbicoi
+  sections:
+    summary:
+      - "Software Engineer with **3 years** of experience building and operating high-performance SaaS and microservice systems. Backend-focused, with core expertise in **Go** and distributed systems. Experienced in high-concurrency architectures, asynchronous processing, database optimization, and scalable API design. Delivered 3× query performance improvements, pipelines processing **1M+** records, and Go services handling **1,000+** req/sec."
+    skills:
+      - label: Languages
+        details: Go, SQL, TypeScript, JavaScript
+      - label: Frameworks & Tools
+        details: Gin, Echo, Chi, gRPC, Protocol Buffers, GORM, sqlx, Node.js
+      - label: Databases & Caching
+        details: SQL Server, PostgreSQL, Redis
+      - label: Cloud & DevOps
+        details: AWS, Docker, Linux, GitLab CI, GitHub Actions, Jenkins
+      - label: Backend & Architecture
+        details: Microservices, Concurrency & Channels, Event-Driven Architecture, Query & Lock Optimization
+      - label: English
+        details: TOEIC 825 — Professional working proficiency; daily collaboration with international engineering teams
+    experience:
+      - company: Laidon
+        position: Backend Developer
+        start_date: 2026-05
+        location: Ho Chi Minh City, Vietnam
+        highlights:
+          - Develop backend features for **SimpleMDG**, an enterprise Master Data Governance solution, using **SAP CAP (CAPire), Node.js, and TypeScript** in a microservice architecture.
+          - Diagnose and resolve production issues by tracing **asynchronous event flows through SAP Event Mesh** across distributed services.
+      - company: SynergieGlobal
+        position: Software Engineer
+        sub_title: Angi-owned SaaS Product
+        start_date: 2024-04
+        end_date: 2026-04
+        location: Ho Chi Minh City, Vietnam
+        highlights:
+          - Built a high-concurrency **Go booking microservice** handling **1,000+ requests/sec**, implementing concurrent state management and reservation workflows.
+          - Implemented distributed state synchronization using **Redis Pub/Sub and Server-Sent Events (SSE)** to coordinate concurrent slot reservations and prevent inconsistent reservation state.
+          - Designed and implemented an **asynchronous ingestion pipeline processing 1M+ records per query**, using batched processing to control memory usage and maintain stable throughput.
+          - Resolved critical **database lock contention** by optimizing query patterns and transaction isolation, maintaining system availability during traffic spikes.
+          - Resolved critical **N+1 query issues**, consolidating iterative queries to reduce latency from **12s to 2s**.
+          - Refactored legacy **full-text search** and redesigned SQL indexes, achieving a **3x reduction in query execution time**.
+          - Implemented **synthetic monitoring and end-to-end tests** for critical web application user flows, proactively detecting availability regressions.
+          - Managed release cycles across backend services, web applications, and mobile builds.
+      - company: Aura Beauty Group
+        position: Web Development Intern
+        start_date: 2023-05
+        end_date: 2023-11
+        location: Ho Chi Minh City, Vietnam
+        highlights:
+          - Built full-stack ERP features with **NestJS and Next.js** to support internal clinic operations.
+          - Developed an **AI-powered knowledge assistant** using OpenAI APIs and vector search to automate **30% of routine customer support queries**.
+    education:
+      - institution: VNUHCM - University of Science
+        area: Information Technology — Honors Program
+        degree: Bachelor
+        start_date: 2021-09
+        end_date: 2025-12
+locale:
+  language: english
+  present: Present
+design:
+  theme: sb2nov
+  page:
+    show_top_note: false
+    show_footer: false
+    top_margin: 0.45in
+    bottom_margin: 0.45in
+    left_margin: 0.5in
+    right_margin: 0.5in
+  header:
+    space_below_name: 0.3cm
+    space_below_headline: 0.25cm
+    space_below_connections: 0.3cm
+  section_titles:
+    space_above: 0.3cm
+    space_below: 0.15cm
+  sections:
+    space_between_regular_entries: 0.5em
+  entries:
+    highlights:
+      space_above: 0cm
+      space_between_items: 0cm
+  templates:
+    education_entry:
+      main_column: |-
+        **INSTITUTION**
+        *DEGREE of AREA*
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        DATE
+    experience_entry:
+      main_column: |-
+        **POSITION**
+        *COMPANY*
+        *SUB_TITLE*
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        DATE
+settings:
+  render_command:
+    pdf_path: rendercv_output/Hoang_The_Trung_G.pdf
+    markdown_path: rendercv_output/Hoang_The_Trung_G.md
+    dont_generate_html: true
+    dont_generate_png: true

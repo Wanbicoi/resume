@@ -5,7 +5,14 @@ PYTHON = $(VENV)/bin/python
 PIP = $(VENV)/bin/pip
 
 build: $(VENV)
-	$(PYTHON) -m rendercv render Hoang_The_Trung_CV.yaml
+	rm -rf rendercv_output
+	@for file in Hoang_The_*.yaml; do \
+		if [ -f "$$file" ]; then \
+			echo "Rendering $$file..."; \
+			$(PYTHON) -m rendercv render "$$file"; \
+		fi \
+	done
+	@rm -f rendercv_output/*.typ
 
 setup: $(VENV)
 

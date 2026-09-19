@@ -1,0 +1,112 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Hoang The Trung
+  headline: Software Engineer | .NET & Full-Stack Developer
+  location:
+  email: hoangthetrung.work@gmail.com
+  phone: "+84-782-592-035"
+  social_networks:
+    - network: LinkedIn
+      username: hoang-trung-b10b311a4
+    # - network: GitHub
+    #   username: Wanbicoi
+  sections:
+    summary:
+      - "Software Engineer with **3 years** of experience developing and operating SaaS and microservices using **C# / .NET (.NET 8, ASP.NET Core & MVC)**, **SQL Server**, and **React**. Solid foundation in **OOP, SOLID principles, and Unit Testing**. Experienced in **Real-time systems (WebSockets, SSE)**, RESTful APIs, and database performance tuning. Delivered 3× query speedups and pipelines processing **1M+** records."
+    skills:
+      - label: Languages
+        details: C#, SQL, TypeScript, JavaScript (ES6+), HTML5, CSS3/SCSS
+      - label: Frameworks & UI
+        details: ASP.NET Core (.NET 8), ASP.NET MVC, EF Core, LINQ, React, Razor Views
+      - label: Realtime & Backend
+        details: WebSockets, Server-Sent Events (SSE), Redis Pub/Sub, RESTful APIs
+      - label: Databases & Cloud
+        details: Microsoft SQL Server, PostgreSQL, Redis, Azure DevOps, AWS, Docker, GitHub Actions, CI/CD
+      - label: Architecture & Practices
+        details: OOP & SOLID Principles, Design Patterns, Microservices, Event-Driven, Query & Lock Optimization
+      - label: English
+        details: TOEIC 825 — Professional working proficiency; daily collaboration with international engineering teams
+    experience:
+      - company: Laidon
+        position: Backend Developer
+        start_date: 2026-05
+        location: Ho Chi Minh City, Vietnam
+        highlights:
+          - Develop backend features for **SimpleMDG**, an enterprise Master Data Governance solution, utilizing microservices and RESTful APIs.
+          - Diagnose and resolve production issues across distributed services by tracing asynchronous event flows and debugging complex system integrations.
+      - company: SynergieGlobal
+        position: Software Engineer
+        sub_title: Angi-owned SaaS Product
+        start_date: 2024-04
+        end_date: 2026-04
+        location: Ho Chi Minh City, Vietnam
+        highlights:
+          - Developed scalable web features and microservices using **C# (.NET 8 / ASP.NET Core & MVC)**, **EF Core**, and **RESTful APIs**.
+          - Implemented **real-time state synchronization** using **SSE, and Redis Pub/Sub** to coordinate concurrent slot reservations without race conditions.
+          - Built interactive UI components with **React** and **JavaScript (ES6+)**, optimizing client rendering and state management.
+          - Engineered asynchronous data ingestion pipelines handling **1M+ records per query**, utilizing batched execution to maximize throughput.
+          - Resolved critical **SQL Server lock contention and N+1 query issues**, refactoring queries and indexes to reduce latency from **12s to 2s** (3x faster).
+          - Maintained code quality with **Unit Tests (xUnit)** and automated CI/CD deployments using **GitHub Actions, Azure DevOps, and Octopus Deploy**.
+      - company: Aura Beauty Group
+        position: Web Development Intern
+        start_date: 2023-05
+        end_date: 2023-11
+        location: Ho Chi Minh City, Vietnam
+        highlights:
+          - Developed full-stack ERP web modules with **Next.js** and RESTful APIs, handling responsive UI rendering and database workflows.
+          - Built an **AI-powered knowledge assistant** using OpenAI APIs and vector search, automating **30% of routine customer support queries**.
+    education:
+      - institution: VNUHCM - University of Science
+        area: Information Technology — Honors Program
+        degree: Bachelor
+        start_date: 2021-09
+        end_date: 2025-12
+locale:
+  language: english
+  present: Present
+design:
+  theme: sb2nov
+  page:
+    show_top_note: false
+    show_footer: false
+    top_margin: 0.45in
+    bottom_margin: 0.45in
+    left_margin: 0.5in
+    right_margin: 0.5in
+  header:
+    space_below_name: 0.3cm
+    space_below_headline: 0.25cm
+    space_below_connections: 0.3cm
+  section_titles:
+    space_above: 0.3cm
+    space_below: 0.15cm
+  sections:
+    space_between_regular_entries: 0.5em
+  entries:
+    highlights:
+      space_above: 0cm
+      space_between_items: 0cm
+  templates:
+    education_entry:
+      main_column: |-
+        **INSTITUTION**
+        *DEGREE of AREA*
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        DATE
+    experience_entry:
+      main_column: |-
+        **POSITION**
+        *COMPANY*
+        *SUB_TITLE*
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        DATE
+settings:
+  render_command:
+    pdf_path: rendercv_output/Hoang_The_Trung_D.pdf
+    markdown_path: rendercv_output/Hoang_The_Trung_D.md
+    dont_generate_html: true
+    dont_generate_png: true

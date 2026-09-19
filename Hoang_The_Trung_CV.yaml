@@ -106,3 +106,9 @@ design:
         HIGHLIGHTS
       date_and_location_column: |-
         DATE
+settings:
+  render_command:
+    pdf_path: rendercv_output/Hoang_The_Trung_CV.pdf
+    markdown_path: rendercv_output/Hoang_The_Trung_CV.md
+    dont_generate_html: true
+    dont_generate_png: true
