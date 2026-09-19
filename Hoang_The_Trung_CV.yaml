@@ -32,6 +32,7 @@ cv:
         start_date: 2026-05
         location: Ho Chi Minh City, Vietnam
         highlights:
+          - Built a **Slack technical support chatbot** to automate issue triage and error log inspection, reducing **50% of routine investigation effort** for the engineering support team.
           - Develop backend features for **SimpleMDG**, an enterprise Master Data Governance solution, using **SAP CAP (CAPire), Node.js, and TypeScript** in a microservice architecture.
           - Diagnose and resolve production issues by tracing **asynchronous event flows through SAP Event Mesh** across distributed services.
       - company: SynergieGlobal

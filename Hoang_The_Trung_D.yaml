@@ -15,13 +15,13 @@ cv:
       - "Software Engineer with **3 years** of experience developing and operating SaaS and microservices using **C# / .NET (.NET 8, ASP.NET Core & MVC)**, **SQL Server**, and **React**. Solid foundation in **OOP, SOLID principles, and Unit Testing**. Experienced in **Real-time systems (WebSockets, SSE)**, RESTful APIs, and database performance tuning. Delivered 3× query speedups and pipelines processing **1M+** records."
     skills:
       - label: Languages
-        details: C#, SQL, TypeScript, JavaScript (ES6+), HTML5, CSS3/SCSS
+        details: C#, SQL, TypeScript, JavaScript, HTML5, CSS3/SCSS
       - label: Frameworks & UI
-        details: ASP.NET Core (.NET 8), ASP.NET MVC, EF Core, LINQ, React, Razor Views
+        details: ASP.NET Core (.NET 8), ASP.NET MVC, EF Core, React, Razor Views
       - label: Realtime & Backend
-        details: WebSockets, Server-Sent Events (SSE), Redis Pub/Sub, RESTful APIs
+        details: WebSockets, Server-Sent Events (SSE), Redis Pub/Sub
       - label: Databases & Cloud
-        details: Microsoft SQL Server, PostgreSQL, Redis, Azure DevOps, AWS, Docker, GitHub Actions, CI/CD
+        details: Microsoft SQL Server, PostgreSQL, Redis, AWS, Docker, GitHub Actions, CI/CD
       - label: Architecture & Practices
         details: OOP & SOLID Principles, Design Patterns, Microservices, Event-Driven, Query & Lock Optimization
       - label: English
@@ -32,7 +32,8 @@ cv:
         start_date: 2026-05
         location: Ho Chi Minh City, Vietnam
         highlights:
-          - Develop backend features for **SimpleMDG**, an enterprise Master Data Governance solution, utilizing microservices and RESTful APIs.
+          - Built a **Slack technical support chatbot** to automate issue triage and error log inspection, reducing **50% of routine investigation effort** for the engineering support team.
+          - Develop backend features for **SimpleMDG**, an enterprise Master Data Governance solution, utilizing microservices.
           - Diagnose and resolve production issues across distributed services by tracing asynchronous event flows and debugging complex system integrations.
       - company: SynergieGlobal
         position: Software Engineer
@@ -43,10 +44,10 @@ cv:
         highlights:
           - Developed scalable web features and microservices using **C# (.NET 8 / ASP.NET Core & MVC)**, **EF Core**, and **RESTful APIs**.
           - Implemented **real-time state synchronization** using **SSE, and Redis Pub/Sub** to coordinate concurrent slot reservations without race conditions.
-          - Built interactive UI components with **React** and **JavaScript (ES6+)**, optimizing client rendering and state management.
+          - Built interactive UI components with **React** and **JavaScript**, optimizing client rendering and state management.
           - Engineered asynchronous data ingestion pipelines handling **1M+ records per query**, utilizing batched execution to maximize throughput.
           - Resolved critical **SQL Server lock contention and N+1 query issues**, refactoring queries and indexes to reduce latency from **12s to 2s** (3x faster).
-          - Maintained code quality with **Unit Tests (xUnit)** and automated CI/CD deployments using **GitHub Actions, Azure DevOps, and Octopus Deploy**.
+          - Maintained code quality with **Unit Tests** and automated CI/CD deployments using **GitHub Actions, and Octopus Deploy**.
       - company: Aura Beauty Group
         position: Web Development Intern
         start_date: 2023-05
