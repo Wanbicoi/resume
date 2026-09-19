@@ -37,7 +37,7 @@ cv:
           - Diagnose and resolve production issues by tracing **asynchronous event flows through SAP Event Mesh** across distributed services.
       - company: SynergieGlobal
         position: Software Engineer
-        sub_title: Angi-owned SaaS Product
+        # sub_title: Angi-owned SaaS Product
         start_date: 2024-04
         end_date: 2026-04
         location: Ho Chi Minh City, Vietnam
